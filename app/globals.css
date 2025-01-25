@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy: #0a192f;
+  --color-dark-blue: #172a45;
+  --color-gold: #ffd700;
+  --color-light-gold: #ffe55c;
+}
+
+body {
+  font-family: var(--font-lato), sans-serif;
+  color: var(--color-navy);
+  background: linear-gradient(to bottom, #f7f7f7, #e5e5e5);
+  cursor: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair), serif;
+}
+
+* {
+  cursor: none;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair), serif;
+}
+
+.font-lato {
+  font-family: var(--font-lato), sans-serif;
+}
+
